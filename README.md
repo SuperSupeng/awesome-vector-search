@@ -9,7 +9,7 @@
 <a href="https://github.comUnstructured-Data-Community/awesome-vector-search/stargazers">     <img border="0" src="https://img.shields.io/github/stars/Unstructured-Data-Community/awesome-vector-search" /> </a>
 </div>
 
-This project collects vector search related products, cloud services and implementation libraries, for each open source product, it will be followed by the most recent update time to help you quickly judge whether the project is active or not.
+This project collects vector search-related products, cloud services and implementation libraries, for each open-source product, it will be followed by the most recent update time to help you quickly judge whether the project is active or not.
 
 该项目收集向量检索相关的产品、云服务与实现库，对于每个开源产品，会在其后面标注最近的更新时间帮助大家快速判断该项目是否活跃。
 
@@ -30,5 +30,16 @@ This project collects vector search related products, cloud services and impleme
 | [Faiss](https://faiss.ai/) | Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM. It also contains supporting code for evaluation and parameter tuning. | [yes](https://github.com/facebookresearch/faiss) | 2022-11-23T00:42:28Z |
 | [Annoy](https://github.com/spotify/annoy) | Annoy (Approximate Nearest Neighbors Oh Yeah) is a C++ library with Python bindings to search for points in space that are close to a given query point. It also creates large read-only file-based data structures that are mmapped into memory so that many processes may share the same data. | [yes](https://github.com/spotify/annoy) | 2022-10-27T15:17:47Z |
 
+___
+## Contributors
 
+<a href="https://github.com/Unstructured-Data-Community/awesome-vector-search/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Unstructured-Data-Community/awesome-vector-search" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
+## LICENSE
+
+[MIT license](./LICENSE)
     
