@@ -11,7 +11,6 @@ baseUrl = 'https://api.github.com/repos/'
 
 def getUpdateTime(owner, repo):
     url = baseUrl + owner + '/' + repo + '/commits'
-    print(url)
     http = urllib3.PoolManager()
     r = http.request('GET', url, headers = headers)
     print(r.status)
@@ -47,6 +46,7 @@ This project collects vector search related products, cloud services and impleme
     f.close
 
 if __name__ == "__main__":
+    print(len(sys.argv))
     Authorization = 'Bearer ' + sys.argv[1]
     print(Authorization)
     headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36', 'Accept': 'application/vnd.github+json', 'Authorization': Authorization} 
