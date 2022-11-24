@@ -9,12 +9,6 @@ urllib3.disable_warnings()
 
 baseUrl = 'https://api.github.com/repos/'
 
-def getToken():
-    f=open('token.txt')
-    for line in f:
-        return line
-
-
 def getUpdateTime(owner, repo):
     url = baseUrl + owner + '/' + repo + '/commits'
     print(url)
@@ -24,7 +18,7 @@ def getUpdateTime(owner, repo):
     print('返回结果：', r.data.decode('utf-8'))
 
 def writeReadme():
-    f = open('README_test.md', 'w+')
+    f = open('README.md', 'w+')
 
     head = """
     # awesome-vector-search
@@ -58,4 +52,5 @@ if __name__ == "__main__":
     headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36', 'Accept': 'application/vnd.github+json', 'Authorization': Authorization} 
 
     getUpdateTime("milvus-io","milvus")
+    writeReadme()
 
