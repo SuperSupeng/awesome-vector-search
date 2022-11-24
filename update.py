@@ -18,7 +18,7 @@ def getUpdateTime(owner, repo):
     return date
 
 def writeReadme():
-    f = open('README_.md', 'w+')
+    f = open('README.md', 'w+')
 
     milvusDate = getUpdateTime("milvus-io","milvus")
 
