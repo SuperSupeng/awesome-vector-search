@@ -21,5 +21,14 @@ This project collects vector search related products, cloud services and impleme
 | [Vearch](https://vearch.github.io/) | Vearch is the vector search infrastructure for deeping learning and AI applications. | [yes](https://github.com/vearch/vearch) | 2022-07-22T06:24:42Z |
 | [marqo](https://www.marqo.ai/) | A tensor-based search and analytics engine that seamlessly integrates with your applications, websites, and workflows. | [yes](https://github.com/marqo-ai/marqo) | 2022-11-24T04:29:04Z |
 | [Jina](https://jina.ai/) | Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud. It uplifts a PoC into a production-ready service. Jina handles the infrastructure complexity, making advanced solution engineering and cloud-native technologies accessible to every developer. | [yes](https://github.com/jina-ai/jina) | 2022-11-24T09:56:59Z |
+| [Qdrant](https://qdrant.tech/) | Vector Search Engine for the next generation of AI applications. | [yes](https://github.com/qdrant/qdrant) | 2022-11-16T08:44:45Z |
+| [Weaviate](https://github.com/semi-technologies/weaviate) | Weaviate is an open source vector search engine that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients. | [yes](https://github.com/semi-technologies/weaviate) | 2022-11-22T18:27:02Z |
+
+## Library 
+| **Name** |  **Introduction**  | **Open source** | **Last updated** |
+|:-----|:--------:|:----------:|:-----------:|
+| [Faiss](https://faiss.ai/) | Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM. It also contains supporting code for evaluation and parameter tuning. | [yes](https://github.com/facebookresearch/faiss) | 2022-11-23T00:42:28Z |
+| [Annoy](https://github.com/spotify/annoy) | Annoy (Approximate Nearest Neighbors Oh Yeah) is a C++ library with Python bindings to search for points in space that are close to a given query point. It also creates large read-only file-based data structures that are mmapped into memory so that many processes may share the same data. | [yes](https://github.com/spotify/annoy) | 2022-10-27T15:17:47Z |
+
 
     
