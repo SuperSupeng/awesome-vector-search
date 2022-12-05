@@ -23,7 +23,7 @@ This project collects vector search-related products, cloud services and impleme
 | [Jina](https://jina.ai/) | Jina is a MLOps framework that empowers anyone to build cross-modal and multi-modal applications on the cloud. It uplifts a PoC into a production-ready service. Jina handles the infrastructure complexity, making advanced solution engineering and cloud-native technologies accessible to every developer. | [yes](https://github.com/jina-ai/jina) | 2022-12-01T16:45:34Z |
 | [Qdrant](https://qdrant.tech/) | Vector Search Engine for the next generation of AI applications. | [yes](https://github.com/qdrant/qdrant) | 2022-11-25T13:53:22Z |
 | [Weaviate](https://github.com/semi-technologies/weaviate) | Weaviate is an open source vector search engine that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients. | [yes](https://github.com/semi-technologies/weaviate) | 2022-12-01T14:17:35Z |
-
+| [OpenSearch](https://opensearch.org/) | In the form of platform servitization, OpenSearch simplifies professional search technology, makes it low-threshold and low-cost, so that search engine technology no longer becomes the business bottleneck of customers, and realizes product search functions at low cost and iterates rapidly. | [yes](https://github.com/opensearch.org/OpenSearch) | 2022-12-05T06:09:17Z |
 ## Library 
 | **Name** |  **Introduction**  | **Open source** | **Last updated** |
 |:-----|:--------:|:----------:|:-----------:|
