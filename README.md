@@ -11,7 +11,7 @@
 
 This project collects vector search-related products, cloud services and implementation libraries, for each open-source product, it will be followed by the most recent update time to help you quickly judge whether the project is active or not.
 
-该项目收集向量检索相关的产品、云服务与实现库，对于每个开源产品，会在其后面标注最近的更新时间帮助大家快速判断该项目是否活跃。
+该项目收集向量检索相关的产品、云服务与实现库，对于每个开源产品，会在其后面标注最近的更新时间帮助大家快速判断该项目是否活跃。。
 
 ## Products
 
